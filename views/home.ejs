@@ -1,0 +1,93 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lego Collection</title>
+    <link rel="stylesheet" href="/css/main.css" />
+  </head>
+
+  <body tabindex="-1">
+    <%- include('partials/navbar', {page: ''}) %>
+
+    <br />
+
+    <div class="container mx-auto">
+      <div class="hero bg-base-200 rounded-lg p-6">
+        <div class="hero-content text-center">
+          <div class="max-w-md">
+            <h1 class="text-5xl font-bold">Welcome to Lego's World</h1>
+
+            <p class="py-6">
+                Embark on a creative journey within the captivating universe of Lego, where the possibilities are boundless and your architectural talents can flourish.
+            </p>
+
+            <a href="/lego/sets" class="btn btn-primary">Get Started Now</a>
+          </div>
+        </div>
+      </div>
+
+      <br />
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+        <div>
+          <div class="card bg-base-100 shadow-xl">
+            <figure>
+              <img
+                class="w-full"
+                src="https://images.brickset.com/sets/small/214-4.jpg?201802271053"
+                alt="Lego set"
+              />
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title">Windows and Doors</h2>
+              <p>
+                There are so many versions of this but it was released in 1957.
+              </p>
+              <div class="card-actions justify-end">
+                <a href="/lego/sets/033-2" class="btn btn-primary">View</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="card bg-base-100 shadow-xl">
+            <figure>
+              <img
+                class="w-full"
+                src="https://live.staticflickr.com/4199/34376834924_9803d40e9f_b.jpg"
+                alt="Lego Set"
+              />
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title">Lightning McQueen</h2>
+              <p>The Lightning McQueen build was released in 2012</p>
+              <div class="card-actions justify-end">
+                <a href="/lego/sets/03093-1" class="btn btn-primary">View</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="card bg-base-100 shadow-xl">
+            <figure>
+              <img
+                class="w-full"
+                src="https://www.trustedreviews.com/wp-content/uploads/sites/54/2022/03/Princess-Peach-Mario-Lego-set-12-scaled.jpg"
+                alt="Lego Set"
+              />
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title">Princess Peach</h2>
+              <p>Princess Peach- recently joined lego on a mario day on 10th march</p>
+              <div class="card-actions justify-end">
+                <a href="/lego/sets/01-Mar" class="btn btn-primary">View</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
